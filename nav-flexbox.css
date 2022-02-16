@@ -29,10 +29,15 @@
 
 .brandlogo{
     /*color:snow;*/
-    color: #000000;
-    font-size: 1.8rem;
+    /*color: #000000;
+    font-size: 1.8rem;*/
     /*margin-left: 10px;*/
     margin-right: auto;
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #000000;
+    line-height: 32px;
 }
 
 .navlinks {
@@ -64,7 +69,14 @@
     border-radius: 2px;
 }
 
-
+@font-face {
+  font-family: Roboto;
+  src: url(/assets/fonts/Roboto-Black.ttf);
+}
+/*@font-face {
+  font-family: Lobster;
+  src: url(/assets/fonts/Lobster.ttf);
+}*/
 /**************************Mobile ***********************/
 
 @media screen and (max-width:600px){
