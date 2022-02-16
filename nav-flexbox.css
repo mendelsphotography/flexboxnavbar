@@ -37,7 +37,6 @@
     list-style: none;
      float: left; 
      margin-right: 80px;
-    padding: 10px;
 
 }
 
@@ -47,6 +46,7 @@
     font-size: .9rem;
     text-decoration: none;
     text-transform: uppercase;
+    margin-right: 5px;
 
 }
 
