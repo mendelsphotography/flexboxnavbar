@@ -73,8 +73,13 @@
     border-radius: 2px;
 }
 
- .navlinks a:link   {
+ /*.navlinks a:link   {
      color: red; 
+}*/
+
+.navlinks > .active > a { 
+    background-color: color ; 
+    color: red; 
 }
 
 @font-face {
