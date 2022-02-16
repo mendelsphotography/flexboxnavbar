@@ -37,7 +37,7 @@
     font-size: 30px;
     font-weight: 600;
     color: #000000;
-    line-height: 32px;
+    line-height: 38px;
 }
 
 .navlinks {
@@ -54,6 +54,7 @@
     font-size: 30px;
     font-weight: 600;
     color: #7A7A7A;
+    line-height: 32px;
     font-size: .9rem;
     text-decoration: none;
     text-transform: uppercase;
