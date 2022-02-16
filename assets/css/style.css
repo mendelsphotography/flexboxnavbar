@@ -37,6 +37,7 @@
     font-weight: 600;
     color: #000000;
     line-height: 42px;
+    text-decoration: none;
 }
 
 .navlinks {
@@ -44,6 +45,7 @@
     list-style: none;
      float: left; 
      margin-right: 80px;
+    text-decoration: none;
 
 }
 
@@ -72,14 +74,6 @@
     color: #FF8A16;
     border-radius: 2px;
 }
-
- /*.navlinks a:link   {
-     color: red; 
-}*/
-
-/*.navlinks > .active > a { 
-    color: red; 
-}*/
 
 
 
