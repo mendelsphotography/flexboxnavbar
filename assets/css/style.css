@@ -61,9 +61,6 @@
 
 }
 
-   a:active {
-     color: red; 
-}
 
 .dropdownIcon{
     display:none;
@@ -74,6 +71,10 @@
     /*background-color: rgba(70, 81, 141, .6);*/
     color: #FF8A16;
     border-radius: 2px;
+}
+
+  a:link  {
+     color: red; 
 }
 
 @font-face {
