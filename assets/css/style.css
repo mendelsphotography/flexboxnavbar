@@ -61,6 +61,10 @@
 
 }
 
+   a:active {
+     color: red; 
+}
+
 .dropdownIcon{
     display:none;
 }
