@@ -15,6 +15,14 @@
 
 }
 
+.logo {
+  /*justify-content: left;*/
+  width: 120px;
+  /*height: 120px;*/
+  cursor: pointer;
+  margin-right: auto;
+}
+
 .brandlogo{
     color:snow;
     font-size: 1.8rem;
