@@ -75,10 +75,12 @@
 @font-face {
   font-family: Roboto;
   src: url(/assets/fonts/Roboto-Black.ttf);
+    font-display: swap;
 }
 /*@font-face {
   font-family: Lobster;
   src: url(/assets/fonts/Lobster.ttf);
+  font-display: swap;
 }*/
 /**************************Mobile ***********************/
 
