@@ -35,6 +35,7 @@
 .navlinks {
     display: flex;
     list-style: none;
+     float: left; 
 
 }
 
