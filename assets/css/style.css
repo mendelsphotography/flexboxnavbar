@@ -78,7 +78,6 @@
 }*/
 
 .navlinks > .active > a { 
-    background-color: color ; 
     color: red; 
 }
 
