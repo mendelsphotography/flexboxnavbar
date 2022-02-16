@@ -42,10 +42,11 @@
 
 .navlinks a{
 
-    color: white;
+    color: #7A7A7A;
     font-size: .9rem;
     text-decoration: none;
     text-transform: uppercase;
+    letter-spacing: 10px;
 
 }
 
