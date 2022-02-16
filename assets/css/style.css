@@ -66,12 +66,12 @@
     display:none;
 }
 
-/*.navlinks a:hover{*/
+.navlinks a:hover{
 
     /*background-color: rgba(70, 81, 141, .6);*/
-    /*color: #FF8A16;
+    color: #FF8A16;
     border-radius: 2px;
-}*/
+}
 
  /*.navlinks a:link   {
      color: red; 
@@ -124,6 +124,8 @@
   cursor: pointer;
   width: 60%;
   height: 91%;
+    list-style: none;
+    text-decoration: none;
 }
 
 
