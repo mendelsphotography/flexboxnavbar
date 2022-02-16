@@ -6,6 +6,14 @@
     <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="/assets/Images/Logo.jpg">
     <title>flexbox responsive nav bar</title>
+     <script>
+     $(function() {
+        $('#nav li a').click(function() {
+           $('#nav li').removeClass();
+           $($(this).attr('href')).addClass('active');
+        });
+     });
+  </script>
 </head>
 <body>
       
