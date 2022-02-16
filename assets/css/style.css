@@ -81,16 +81,107 @@
     color: red; 
 }
 
+
+
+
+/* Welcome text On Home Page */
+.welcome {
+  text-align: center;
+  font-family: roboto, sans-serif;
+  font-size: 28px;
+  line-height: 28px;
+  font-weight: 600;
+  color: #2d3748;
+}
+
+
+/*Css Flexbox For Home Page Buttons*/
+.flex-container1 {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.flex-container1 > div {
+  width: 1000px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+} /*end of Css Flexbox*/
+
+
+/* Both Button styles */
+.button {
+  border: none;
+  color: #ffffff;
+  padding: 15px 32px;
+  text-decoration: none;
+  font-family: Lobster, sans-serif;
+  font-size: 25px;
+  line-height: 25px;
+  font-weight: 500;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 60%;
+  height: 91%;
+}
+
+
+/* Younger Divison Button */
+.button1 {
+  background-color: #ff8a16;
+  box-shadow: 0px 17px 10px -12px #17aede;
+  border-radius: 30px;
+  padding: 15px 15px;
+  width: 200px;
+  height: 60px;
+}
+
+
+/* Older Divison Button */
+.button2 {
+  background-color: #ff8a16;
+  box-shadow: 0px 17px 10px -12px #17aede;
+  border-radius: 30px;
+  padding: 15px 5px;
+  width: 180px;
+  height: 60px;
+}
+
+.younger {
+  text-align: center;
+  font-family: roboto, sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.older {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+
+.spacer {
+  padding: 30px;
+}
+
+
+
 @font-face {
   font-family: Roboto;
   src: url(/assets/fonts/Roboto-Black.ttf);
     font-display: swap;
 }
-/*@font-face {
+
+@font-face {
   font-family: Lobster;
   src: url(/assets/fonts/Lobster.ttf);
   font-display: swap;
-}*/
+}
+
+
 /**************************Mobile ***********************/
 
 @media screen and (max-width:600px){
